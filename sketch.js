@@ -1,15 +1,11 @@
-var background,backgroundImg;
-
-
 
 function preload() {
-backgroundImg=loadImage("garden.png")
+    //load the images here
 }
 
 function setup(){
     createCanvas(1000,800);
-    background=createSprite(500,400);
-    background.addImage(backgroundImg);
+    //create tom and jerry sprites here
 
 }
 
